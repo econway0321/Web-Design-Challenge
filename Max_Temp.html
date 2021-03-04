@@ -4,17 +4,53 @@
 <head>
   <meta charset="UTF-8">
   <title>Max_Temp</title>
-  <link rel='stylesheet' type='text/css' href='style.css'>
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+  <link rel='stylesheet' type='text/css' href='style2.css'>
 </head>
 
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index2.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Data.html">Data</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Visualizations
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="Max_Temp.html">Maximum Temperature</a></li>
+            <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+            <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+            <li><a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
 	
   <section>
-    <h1>Maximum Temperature</h1>
+    <h1>Latitude vs. Maximum Temperature</h1>
 
 	<article>
     	<a target="_blank" href="Visualizations/images/Fig1.png">
-      	<img src="Visualizations/images/Fig1.png" alt="Cloudiness">
+      	<img src="Visualizations/images/Fig1.png" alt="Max Temp">
     	</a>
     </article>
    
@@ -26,38 +62,41 @@
 
   </p>
 
-  <h2>Visualizations</h2>
+<h2>Visualizations</h2> 
 
-	<section>
-    <article>
-    	
-    	<a target="_blank" href="Visualizations/images/Fig1.png">
-      	<img src="Visualizations/images/Fig1.png" alt="Cloudiness" style="width:400px;height:300px";>
-    	</a>
+<div class = "container">
 
- 	</article>
-    
-    <hr>
-    <article>
-    	<a href='Humidity.html'>
-    	<img src="Visualizations/images/Fig2.png" alt="Humidity" style="width:400px;height:300px;">
+  <div class="row">
+    <div class ="col-md-12"
+   
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class="col-md-6">  	
+    	<a href='Max_Temp.html'>
+      	<img src="Visualizations/images/Fig1.png" alt="Max_Temp" style="">
     	</a>
-    </article>
-    
-    <hr>
-    <article>
-      	<a href='Cloudiness.html'>
-      	<img src="Visualizations/images/Fig3.png" alt="Cloudiness" style="width:400px;height:300px;" >
-      	</a>
-     </article>
- 
-    <hr>
-    <article>
-      	<a href='Wind_Speed.html'>
-      	<img src="Visualizations/images/Fig4.png" style="width:400px;height:300px;">
-        </a>
-    </article>
- 
-     </section>
+     </div>
+    <div class="col-md-6">
+      <a href='Humidity.html'>
+        <img src="Visualizations/images/Fig2.png" alt="Humidity" style="">
+      </a>
+    </div> 
   
+  <div class='row'>
+    <div class="col-md-6">    
+      <a href='Cloudiness.html'>
+        <img src="Visualizations/images/Fig3.png" alt="Cloudiness" style="">
+      </a>
+     </div>
+    <div class="col-md-6">
+      <a href='Wind_Speed.html'>
+        <img src="Visualizations/images/Fig4.png" alt="Wind Speed" style="">
+      </a>
+    </div> 
+    
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+
 </body> 
