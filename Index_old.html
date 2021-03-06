@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <title>Index</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type='text/css' href='style.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>  
+<body>
+
+
+
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="Comparison.html">Comparison</a>
+  <a href="Data.html">Data</a> 
+  <div class="subnav">
+    <button class="subnavbtn">Plot <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <div class="navbar">
+      <a href="#">Maximum Temperature</a>
+      <a href="#">Humidity</a>
+      <a href="#">Cloudiness</a>
+      <a href="#">Wind Speed</a>
+    </div>
+  </div> 
+</div>
+
+<br>
+<br>
+<h1>Summary of Latitude vs X</h1>
+
+<div class="media">
+  <div class="media-left media-middle">
+    <img src="Assets/weather.jpg" class="media-object" style="width:200px">
+  </div>
+  <div class = "media-body"  
+    <p><h3>About</h3></p>
+    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+    <p>After assembling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p><br>
+  </div>
+</div>
+
+
+<h3>Visualizations</h3>
+
+	<section>
+    <article>
+    	<a href='Max_Temp.html'>	
+      	<img src="Visualizations/images/Fig1.png" alt="Max_Temp" style="width:400px;height:300px;">
+      	</a>
+ 	</article>
+    
+   
+    <article>
+    	<a href='Humidity.html'>
+    	<img src="Visualizations/images/Fig2.png" alt="Humidity" style="width:400px;height:300px;">
+    	</a>
+    </article>
+    
+    
+    <article>
+      	<a href='Cloudiness.html'>
+      	<img src="Visualizations/images/Fig3.png" alt="Cloudiness" style="width:400px;height:300px;" >
+      	</a>
+     </article>
+ 
+   
+    <article>
+      	<a href='Wind_Speed.html'>
+      	<img src="Visualizations/images/Fig4.png" style="width:400px;height:300px;">
+        </a>
+    </article>
+ 
+     </section>
+
+</body>
