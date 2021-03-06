@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+  <title>Index</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+<link rel='stylesheet' type='text/css' href='style2.css'>
+
+</head>  
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Data.html">Data</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Visualizations
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="Max_Temp.html">Maximum Temperature</a></li>
+            <li><a class="dropdown-item" href="Humidity.html">Humidity</a></li>
+            <li><a class="dropdown-item" href="Cloudiness.html">Cloudiness</a></li>
+            <li><a class="dropdown-item" href="Wind_Speed.html">Wind Speed</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<body>
+<h1>Summary of Latitude vs X</h1>
+ 
+ <div class="section">
+    <img src="Assets/weather.jpg" class="leftimage centerimage" style="width:290px;height:300px">
+    <div class ="smtitle righttext"><h2>About</h2></div>
+    <p class = "righttext">
+    The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities. After assembling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+  </div>
+
+
+<br>
+<br>
+<br>
+
+<h2>Visualizations</h2>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+   <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Visualizations/images/Fig1.png" class="d-block w-80" alt="Max Temp">
+    </div>
+    <div class="carousel-item">
+      <img src="Visualizations/images/Fig2.png" class="d-block w-80" alt="Humidity">
+    </div>
+    <div class="carousel-item">
+      <img src="Visualizations/images/Fig3.png" class="d-block w-80" alt="Cloudiness">
+    </div>
+    <div class="carousel-item">
+      <img src="Visualizations/images/Fig4.png" class="d-block w-80" alt="Wind Speed">
+    </div>
+ <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</div>
+
+
+
+	
+    
+     <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> 
+
+
+</body>
