@@ -1,11 +1,17 @@
 h1 {
-  text-align: left;
+  text-align: center;
   background-color: Purple;
   color: white;
+  padding-left:12px;
+  font-size: 60px	
 }
+
+
 
 h2 {
   color: purple;
+  padding-left: 12px
+  font-size: 
 }
 
 h3 {
@@ -13,99 +19,34 @@ h3 {
   color: purple;
 }
 
+.navbar {
+  padding: 12px;
+  ;
+}
+
+p {
+  text-align:;
+  background-color: ;
+  color: navy;
+  padding-left: 12px
+}
+
+
 img {
-  box-shadow: 2px 2px 2px 2px purple;
+  
+  background-color: lightpurple;
+  box-shadow: ;
+ 
 }
 
 section {
   background-color: ;
 }
 
-p {
-  font-size: 12px;
-  font-type: "Abadi"
-  color: black;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: lightpurple;
-  	
-}
-
-li {
-  float: right;
-
-}
-
-li a {
-  display: block;
-  padding: 15px;
-  background-color: lightpurple;
-  
-  
+table {
+  padding-lef:12px ;
 }
 
 
-}
 
-.navbar {
-  overflow: hidden;
-  background-color: Purple; 
-}
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: purple;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: bold;
-}
-
-.subnav {
-  float: left;
-  overflow: hidden;
-}
-
-.subnav .subnavbtn {
-  font-size: 16px;  
-  border: none;
-  outline: ;
-  color: purple;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: teal;
-}
-
-.subnav-content {
-  display: none;
-  position: absolute;
-  left: 0;
-  background-color: purple;
-  width: 100%;
-  z-index: 1;
-}
-
-.subnav-content a {
-  float: left;
-  color: white;
-  text-decoration: none;
-}
-
-.subnav-content a:hover {
-  background-color: #eee;
-  color: black;
-}
-
-.subnav:hover .subnav-content {
-  display: block;
-}
